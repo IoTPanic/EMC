@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:EMC-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -461,21 +462,6 @@ Wire Wire Line
 Connection ~ 2300 1400
 Wire Wire Line
 	2300 1400 2100 1400
-$Comp
-L power:+12V #PWR017
-U 1 1 5DC253C8
-P 6750 1200
-F 0 "#PWR017" H 6750 1050 50  0001 C CNN
-F 1 "+12V" H 6765 1373 50  0000 C CNN
-F 2 "" H 6750 1200 50  0001 C CNN
-F 3 "" H 6750 1200 50  0001 C CNN
-	1    6750 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 1200 6750 1300
-Wire Wire Line
-	6750 1300 6850 1300
 Wire Wire Line
 	6100 1400 6200 1400
 Wire Wire Line
@@ -833,4 +819,7 @@ Wire Notes Line
 	2950 6350 2950 7200
 Wire Notes Line
 	2950 7200 2200 7200
+Wire Wire Line
+	6200 1300 6850 1300
+Connection ~ 6200 1300
 $EndSCHEMATC

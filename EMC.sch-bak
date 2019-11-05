@@ -720,15 +720,7 @@ F 3 "~" H 2300 6650 50  0001 C CNN
 	1    2300 6650
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	2950 7200 1400 7200
-Wire Notes Line
-	1400 7200 1400 6750
-Wire Notes Line
-	1400 6750 2950 6750
-Wire Notes Line
-	2950 6750 2950 7200
-Text Notes 1400 7300 0    50   ~ 0
+Text Notes 2200 7300 0    50   ~ 0
 Motor Driver Mounting
 Text Notes 8950 1900 0    50   ~ 0
 One device on the bus will need to\n have their I2C bus pulled up to work\nproperly, the jumprs allow for that \ndevice to be selected
@@ -833,4 +825,12 @@ Wire Wire Line
 	7250 3600 7250 3550
 Text Notes 2200 2150 0    50   ~ 0
 Recommended MOSFET- NDT452AP
+Wire Notes Line
+	2200 7200 2200 6350
+Wire Notes Line
+	2200 6350 2950 6350
+Wire Notes Line
+	2950 6350 2950 7200
+Wire Notes Line
+	2950 7200 2200 7200
 $EndSCHEMATC
